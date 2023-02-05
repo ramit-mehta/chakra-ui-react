@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Drawer,
   DrawerBody,
-  DrawerFooter,
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
@@ -11,7 +10,6 @@ import {
   useDisclosure,
   VStack,
   HStack,
-  Center,
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import { BiMenuAltLeft } from 'react-icons/bi';
