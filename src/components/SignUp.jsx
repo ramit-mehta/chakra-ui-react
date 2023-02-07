@@ -16,7 +16,7 @@ const SignUp = () => {
       <form>
         <VStack
           alignItems={'stretch'}
-          spacing={['5', '8']}
+          spacing={['5', '5', '5', '8']}
           w={['full', '96']}
           margin="auto"
           my={'-10'}

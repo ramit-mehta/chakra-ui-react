@@ -37,7 +37,7 @@ const Videos = () => {
 
   const [videoSrc, setVideoSrc] = useState(videosArr[0]);
   return (
-    <Stack direction={['column', 'row']} h="100vh">
+    <Stack direction={['column', 'column', 'row']} h="100vh">
       <VStack w={'full'}>
         <video
           controls

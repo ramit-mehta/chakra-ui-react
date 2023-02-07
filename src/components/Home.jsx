@@ -39,9 +39,13 @@ const Home = () => {
           h={'full'}
           p={'4'}
           alignItems="center"
-          direction={['column', 'row']}
+          direction={['column', 'column', 'row']}
         >
-          <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
+          <Image
+            src={img5}
+            h={['40', '300', '400']}
+            filter={'hue-rotate(-130deg)'}
+          />
 
           <Text
             letterSpacing={'widest'}
@@ -78,29 +82,49 @@ const MyCarousel = () => (
     showThumbs={false}
     showArrows={false}
   >
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={['100%', '100vh']}>
       <Image src={img1} />
-      <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
+      <Heading
+        fontSize={['14px', '50px']}
+        bgColor={'blackAlpha.600'}
+        color={'white'}
+        {...headingOptions}
+      >
         Watch The Future
       </Heading>
     </Box>
 
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={['100%', '100vh']}>
       <Image src={img2} />
-      <Heading bgColor={'whiteAlpha.400'} color={'black'} {...headingOptions}>
+      <Heading
+        fontSize={['14px', '50px']}
+        bgColor={'whiteAlpha.400'}
+        color={'black'}
+        {...headingOptions}
+      >
         Future is Gaming
       </Heading>
     </Box>
 
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={['100%', '100vh']}>
       <Image src={img3} />
-      <Heading bgColor={'whiteAlpha.400'} color={'black'} {...headingOptions}>
+      <Heading
+        fontSize={['14px', '50px']}
+        bgColor={'whiteAlpha.400'}
+        color={'black'}
+        {...headingOptions}
+      >
         Gaming on Console
       </Heading>
     </Box>
-    <Box w="full" h={'100vh'}>
+    <Box w="full" h={['100%', '100vh']}>
       <Image src={img4} />
-      <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
+      <Heading
+        fontSize={['14px', '50px']}
+        bgColor={'whiteAlpha.600'}
+        color={'black'}
+        {...headingOptions}
+      >
         The World of Lofi
       </Heading>
     </Box>
